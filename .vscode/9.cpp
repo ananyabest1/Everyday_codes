@@ -1,3 +1,4 @@
+//2D array as arguments
 #include<iostream>
 using namespace std;
 void print(int mat[3][2]){
@@ -7,7 +8,6 @@ void print(int mat[3][2]){
     }
 }
 int main(){
-  int mat[3][2] {{10,34},{30},{58},
-                 {45},{65}};                 
+  int mat[3][2] = {{10,34},{30,58},{45,65}};                 
 cout<<(mat);
 };
